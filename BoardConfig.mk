@@ -15,7 +15,7 @@
 #
 
 # inherit from samsung goya-common
--include device/samsung/goya-common/BoardConfigCommon.mk
+include device/samsung/goya-common/BoardConfigCommon.mk
 
 # Kernel
 TARGET_KERNEL_CONFIG := cyanogenmod_goya3g_defconfig

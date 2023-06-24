@@ -15,6 +15,8 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
+LOCAL_PATH := device/samsung/goyawifi
+
 # Release name
 PRODUCT_RELEASE_NAME := goya3g
 
@@ -34,10 +36,3 @@ PRODUCT_NAME := cm_goya3g
 PRODUCT_BRAND := Samsung
 PRODUCT_MODEL := SM-T111
 PRODUCT_MANUFACTURER := samsung
-
-#Set build fingerprint / ID / Prduct Name ect.
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=goya3g \
-    TARGET_DEVICE=goya3g \
-    PRIVATE_BUILD_DESC="goya3g-user 4.4.4 JDQ39 T111XXUANAB release-keys" \
-    BUILD_FINGERPRINT="samsung/goya3g/goya3g:4.4.4/JDQ39/T111XXUANAB:user/release-keys"
