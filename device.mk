@@ -17,4 +17,4 @@
 LOCAL_PATH := device/samsung/goya3g
 
 # Inherit from goya-common
-$(call inherit-product, device/samsung/goya-common/goya.mk)
+$(call inherit-product, device/samsung/goya-common/device-common.mk)
